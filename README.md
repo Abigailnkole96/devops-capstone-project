@@ -21,7 +21,7 @@ Once you are in the lab environment, you can initialize it with `bin/setup.sh` b
 source bin/setup.sh
 ```
 
-This will install Python 3.9, make it the default, modify the bash prompt, create a Python virtual environment and activate it.
+This will install Python 3.8.0, make it the default, modify the bash prompt, create a Python virtual environment and activate it.
 
 After sourcing it you prompt should look like this:
 
@@ -33,9 +33,9 @@ After sourcing it you prompt should look like this:
 
 Under normal circumstances you should not have to run these commands. They are performed automatically at setup but may be useful when things go wrong:
 
-### Activate the Python 3.9 virtual environment
+### Activate the Python 3.8.0 virtual environment
 
-You can activate the Python 3.9 environment with:
+You can activate the Python 3.8.0 environment with:
 
 ```bash
 source ~/venv/bin/activate
