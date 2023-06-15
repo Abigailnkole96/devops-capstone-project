@@ -1,7 +1,9 @@
 # DevOps Capstone Template
 
+![Build Status](https://github.com/Abigailnkole96/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Python 3.8.0](https://img.shields.io/badge/Python-3.8.0-green.svg)](https://shields.io/)
+[![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
 
 This repository contains the starter code for the project in [**IBM-CD0285EN-SkillsNetwork DevOps Capstone Project**](https://www.coursera.org/learn/devops-capstone-project?specialization=devops-and-software-engineering) which is part of the [**IBM DevOps and Software Engineering Professional Certificate**](https://www.coursera.org/professional-certificates/devops-and-software-engineering)
 
@@ -21,7 +23,7 @@ Once you are in the lab environment, you can initialize it with `bin/setup.sh` b
 source bin/setup.sh
 ```
 
-This will install Python 3.8.0, make it the default, modify the bash prompt, create a Python virtual environment and activate it.
+This will install Python 3.9, make it the default, modify the bash prompt, create a Python virtual environment and activate it.
 
 After sourcing it you prompt should look like this:
 
@@ -33,9 +35,9 @@ After sourcing it you prompt should look like this:
 
 Under normal circumstances you should not have to run these commands. They are performed automatically at setup but may be useful when things go wrong:
 
-### Activate the Python 3.8.0 virtual environment
+### Activate the Python 3.9 virtual environment
 
-You can activate the Python 3.8.0 environment with:
+You can activate the Python 3.9 environment with:
 
 ```bash
 source ~/venv/bin/activate
