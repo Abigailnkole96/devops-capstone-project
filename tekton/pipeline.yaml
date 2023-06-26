@@ -64,3 +64,19 @@ spec:
         value: "-v --with-spec --spec-color"
       runAfter:
         - clone
+
+    - name: build
+      params:
+        - name: IMAGE
+          value: my-container-image:latest  # Use the correct variable name here
+      runAfter:
+        - tests
+        - lint
+      taskRef:
+        kind: ClusterTask
+        name: buildah
+      workspaces:
+        - name: source
+          workspace: pipeline-workspace
+  workspaces:
+    - name: pipeline-workspace
