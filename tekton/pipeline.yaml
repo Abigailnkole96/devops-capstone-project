@@ -68,7 +68,7 @@ spec:
     - name: build
       params:
         - name: IMAGE
-          value: my-container-image:latest  # Use the correct variable name here
+          value: "my-container-image:latest"  # Use the correct variable name here
       runAfter:
         - tests
         - lint
